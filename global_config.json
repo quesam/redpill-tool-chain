@@ -353,8 +353,6 @@
       "redpill_load": {
         "source_url": "https://github.com/pocopico/redpill-load.git",
         "branch": "jun"
-     #   "source_url": "https://github.com/tossp/redpill-load.git",
-     #   "branch": "42218-20211021"
       },
         "add_extensions": [
         {

@@ -266,14 +266,13 @@
         "branch": "develop"
       },
       "redpill_load": {
-        "source_url": "https://github.com/pocopico/redpill-load.git",
-        "branch": "jun"
+        "source_url": "https://github.com/jumkey/redpill-load.git",
+        "branch": "develop"
       },
-      "add_extensions": [
-        {
-          "redpill-misc": "https://github.com/pocopico/redpill-load/raw/master/redpill-misc/rpext-index.json"
-        }
-      ]
+      "build_env": {
+        "jun_mod": 1,
+        "debug": 0
+      }
     },
     {
       "id": "ds3622xsp-7.1.0-42661",

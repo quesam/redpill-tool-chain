@@ -272,7 +272,7 @@
       "build_env": {
         "jun_mod": 1,
         "debug": 1,
-        "user_cfg": ds3622xsp_user_config.json 
+        "user_cfg": "ds3622xsp_user_config.json"
       }
     },
     {

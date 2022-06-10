@@ -273,7 +273,7 @@
         {
           "redpill-misc": "https://github.com/pocopico/redpill-load/raw/master/redpill-misc/rpext-index.json"
       }
-      ]   
+      ],
       "build_env": {
         "jun_mod": 1,
         "debug": 0

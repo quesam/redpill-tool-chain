@@ -77,7 +77,7 @@ jobs:
         if: matrix.platform != 'dva3221'
         run: |
           ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/redpill-boot-wait.json
-          ./redpill_tool_chain.sh add https://raw.githubusercontent.com/jumkey/redpill-load/develop/redpill-acpid/rpext-index.json
+          ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/redpill-acpid.json
           ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/redpill-virtio.json
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/rpext-index.json
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/rpext-index.json
@@ -90,7 +90,7 @@ jobs:
 
       - name: 添加 Misc shell
         run: |
-          ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/redpill-misc.json
+          ./redpill_tool_chain.sh add https://github.com/pocopico/redpill-load/raw/develop/redpill-misc/rpext-index.json
 
       - name: 添加 jumkey.dtb !!!Create your own device tree binary!!!
         if: matrix.platform == 'ds920p' || matrix.platform == 'ds1621p' || matrix.platform == 'ds2422p'
